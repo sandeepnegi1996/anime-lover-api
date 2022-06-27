@@ -23,3 +23,5 @@ TODO
  
 How to Run
 ------------
+1. Run the file AnimeLoverApplication.java from your favorite IDE
+2. 
