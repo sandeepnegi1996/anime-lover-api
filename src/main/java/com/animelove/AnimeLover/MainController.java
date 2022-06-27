@@ -22,12 +22,15 @@ public class MainController {
     }
 
     @GetMapping("/getAnimeQuote")
-    public AnimeQuote randomAnimeQuote() {
+    public String randomAnimeQuote() {
         String url = "https://animechan.vercel.app/api/random";
         RestTemplate restTemplate = new RestTemplate();
         AnimeQuote result =restTemplate.getForObject(url,AnimeQuote.class);
-        System.out.println(result);
-        return result;
+        System.out.println(result.getQuote());
+
+
+
+        return result.getQuote();
     }
 
     @GetMapping("/pic")
