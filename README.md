@@ -19,6 +19,7 @@ TODO
 -----------
 - [x] Create basic API Hello world
 - [x] Create Basic API calling anime random
-
+- [x] Anime url for the pic
+ 
 How to Run
 ------------
